@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GvC Arquitectos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        header {
+            background-image: url('https://images.unsplash.com/photo-1600585154340-be6161d1a085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px #000;
+        }
+        header h1 {
+            font-size: 3em;
+            background-color: rgba(0,0,0,0.4);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            margin: 10px 0;
+            font-weight: bold;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #ddd;
+            margin: 0 10px;
+        }
+        .whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Diseñamos y construimos espacios que se adaptan a vos</h1>
+</header>
+
+<section class="section">
+    <h2>Quiénes somos</h2>
+    <p>Más de 15 años de experiencia en arquitectura y construcción. Trabajos a medida para cada cliente. Nos especializamos en crear espacios funcionales, modernos y personalizados.</p>
+</section>
+
+<section class="section gallery">
+    <h2>Nuestros Proyectos</h2>
+    <img src="https://images.unsplash.com/photo-1599423300746-b62533397364?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Proyecto 1">
+    <img src="https://images.unsplash.com/photo-1600585154000-6f1f4e42d59e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Proyecto 2">
+    <img src="https://images.unsplash.com/photo-1565182999561-18d7dc61d7ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Proyecto 3">
+</section>
+
+<section class="section services">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Diseño y Proyecto</li>
+        <li>Dirección de Obra</li>
+        <li>Construcción Llave en Mano</li>
+        <li>Reformas y Ampliaciones</li>
+    </ul>
+</section>
+
+<section class="section">
+    <h2>Contacto</h2>
+    <p>¿Querés que conversemos sobre tu proyecto? Envianos un mensaje directo por WhatsApp:</p>
+    <a class="whatsapp" href="https://wa.me/541124314621" target="_blank">Escribinos al WhatsApp</a>
+</section>
+
+<footer>
+    <p>GvC Arquitectos © 2025</p>
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+</footer>
+
+</body>
+</html>
